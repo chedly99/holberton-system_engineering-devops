@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Write a Bash script that displays The content of the current directory
 
-yourfilenames="ls"
-for eachfile in $yourfilenames
+x=$(ls)
+for y in $x
 do
-   echo "$eachfile" | cut -d '-' -f 2
+   echo "$y" | cut -d '-' -f 2
 done
