@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# understand a password
+# i feel sorry3
+while IFS=: read -r user pswd uid guid info home bin
+do
+echo "The user $user is part of the $guid gang, lives in $home and rides $bin. $uid's place is protected by the passcode $pswd, more info about the user here: $info"
+done </etc/passwd
