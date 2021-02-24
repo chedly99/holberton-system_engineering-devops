@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# script to diszplay active ip4
+ifconfig | grep 'inet addr:' | cut -d ":" -f2 | cut -d " " -f1
