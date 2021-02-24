@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# kills the trap in 7-highlander
+pkill -SIGKILL -f 7-highlander
